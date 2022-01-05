@@ -1,0 +1,36 @@
+#container { width:1000px;}
+
+div#header {
+height:100px;
+width:1000px;
+background-color: rgb(224, 231, 243);
+}
+
+div#panel1 {
+height:600px;
+width:200px;
+float:left;
+}
+
+div#panel2 {
+height:600px;
+width:200px;
+float:right;
+
+}
+div#main-body {
+    width:800px; 
+    height:600px;
+    background-color: rgb(224,203,164)
+}
+
+div#footer {
+height:100px;
+width:1000px;
+float:left;
+background-color: rgb(224, 231, 243);
+}
+
+.centered {
+    text-align: center;
+}
