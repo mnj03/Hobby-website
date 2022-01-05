@@ -4,6 +4,7 @@ div#header {
 height:100px;
 width:1000px;
 background-color: rgb(224, 231, 243);
+text-align: center;
 }
 
 div#panel1 {
@@ -22,6 +23,7 @@ div#main-body {
     width:800px; 
     height:600px;
     background-color: rgb(224,203,164)
+    color: rgb(151,145,163);
 }
 
 div#footer {
