@@ -83,19 +83,21 @@
     height: 100%;
     display: right;
     padding: 50px;
-    filter: drop-shadow(8px 8px 10px );
+    filter: drop-shadow(10px 10px 1px rgba(11, 30, 30, 0.8));
     }
     
     #plily-img {
     height: 100%;
     display: right;
     padding: 50px;
+    filter: drop-shadow(10px 10px 1px rgba(11, 30, 30, 0.8));
     }
     
     #soh-img {
     height: 100%;
     display: right;
     padding: 50px;
+    filter: drop-shadow(10px 10px 1px rgba(11, 30, 30, 0.8));
     }
         
     div#footer {
