@@ -1,108 +1,100 @@
-    .flex-container { 
-    font-family: 'Courier New', Courier, monospace;
+.flex-container {
+    font-family: "Courier New", Courier, monospace;
     display: flex;
     text-align: center;
     margin: 10px;
     padding: 20px;
     font-size: 30px;
     flex-flow: column wrap;
-    }
-    
-    div#header {
-    background-color: #A05841;
-    color: #D0B0A6;
+  }
+  
+  div#header {
+    background-color: #a05841;
+    color: #d0b0a6;
     text-align: center;
     font-size: 30px;
-    }
-
-    h1 {
+  }
+  
+  h1 {
     font-weight: 100px;
     font-size: 60px;
     padding: 20px;
     text-shadow: 6px 6px 2px hsl(15, 42%, 34%);
-    }
-
-    div#main-body {
-    color: #A05841;
+  }
+  
+  div#main-body {
+    color: #a05841;
     background-color: #123132;
-    }
-
-    #nav {
-    color:#123132;
+  }
+  
+  #nav {
+    color: #123132;
     text-decoration: none;
     text-align: center;
-    position: -webkit-sticky;
-    position: sticky;
-    }
-
-    #nav a {
+  }
+  
+  #nav a {
     display: inline-flex;
     color: #123132;
     padding: 8px 16px;
     text-decoration: none;
-    
-    }
-    
-    #nav a.active {
+  }
+  
+  #nav a.active {
     background-color: #123132;
-    color: #D0B0A6;
-    }
-
-    #nav a:hover:not(.active) {
-    background-color:#123132;
-    color: #D0B0A6;    
-    }
-
-    .names {
+    color: #d0b0a6;
+  }
+  
+  #nav a:hover:not(.active) {
+    background-color: #123132;
+    color: #d0b0a6;
+  }
+  
+  .names {
     display: inline-block;
     border-style: outset;
-    border-color: #A05841;
+    border-color: #a05841;
     border-width: medium;
     height: 120px;
     width: 500px;
     margin: 50px;
     box-sizing: border-box;
-    }
-
-    .names a:hover {
-    background-color: gray;
-    color: green;
-
-    }
-
-    h2 {
+  }
+  
+  h2 {
     font-size: 40px;
     margin: 10px;
-    }
-
-    p {
-    color: #D0B0A6;
-    }
-
-    #aloe-img {
+  }
+  
+  p {
+    color: #d0b0a6;
+  }
+  
+  #aloe-img {
     height: 100%;
     display: right;
     padding: 50px;
     filter: drop-shadow(10px 10px 1px rgba(11, 30, 30, 0.8));
-    }
-    
-    #plily-img {
+  }
+  
+  #plily-img {
     height: 100%;
     display: right;
     padding: 50px;
     filter: drop-shadow(10px 10px 1px rgba(11, 30, 30, 0.8));
-    }
-    
-    #soh-img {
+  }
+  
+  #soh-img {
     height: 100%;
     display: right;
     padding: 50px;
     filter: drop-shadow(10px 10px 1px rgba(11, 30, 30, 0.8));
-    }
-        
-    div#footer {
+  }
+  
+  div#footer {
     text-align: center;
-    background-color: #D0B0A6;
+    background-color: #d0b0a6;
     color: #123132;
     font-size: 20px;
-    }
+  }
+  
